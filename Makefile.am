@@ -1,7 +1,7 @@
 AUTOMAKE_OPTIONS = foreign
 
 CFLAGS = -Wall -Wextra -O2 $(NLINC) -DCONFIG_LIBNL32
-LDLIBS = -lnl-3 -lnl-genl-3 -lm
+LDFLAGS = -lnl-3 -lnl-genl-3 -lm
 
 bin_PROGRAMS = calibrator
 
