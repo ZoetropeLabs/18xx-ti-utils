@@ -1,5 +1,6 @@
 AC_INIT(calibrator, 8.7)
 AC_CONFIG_SRCDIR([nvs.c])
+AM_INIT_AUTOMAKE([foreign])
 
 # Checks for programs.
 AC_PROG_CC
