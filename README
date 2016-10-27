@@ -1,4 +1,4 @@
-THis is the code from the repository at
+This is the code from the repository at
 git://git.ti.com/wilink8-wlan/18xx-ti-utils.git but I needed to be able to
 compile the calibrator tool with autotools
 
