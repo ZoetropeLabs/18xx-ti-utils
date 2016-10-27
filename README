@@ -1,3 +1,9 @@
+THis is the code from the repository at
+git://git.ti.com/wilink8-wlan/18xx-ti-utils.git but I needed to be able to
+compile the calibrator tool with autotools
+
+### Original readme
+
 The calibrator and other useful utilities for TI wireless solution,
 based on the wl12xx and wl18xx drivers.
 
