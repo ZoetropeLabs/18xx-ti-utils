@@ -5,9 +5,9 @@
 VERSION=1.3
 
 # defaults
-binary_name="/lib/firmware/ti-connectivity/wl18xx-conf.bin"
-wlconf_path="/usr/sbin/wlconf/"
-ini_path="/usr/sbin/wlconf/official_inis"
+binary_name="./wl18xx-conf.bin"
+wlconf_path="./wlconf/"
+ini_path="."
 
 # function for printing help
 print_help()
@@ -234,11 +234,11 @@ do
 done
 
 # remove the wlcore_sdio module before updating the bin file
-rmmod wlcore_sdio
+#rmmod wlcore_sdio
 
 
 # create clean file
-cd $wlconf_path
+#cd $wlconf_path
 ./wlconf -o $binary_name -I $ini_file_name
   
   
@@ -251,5 +251,5 @@ cd $wlconf_path
 print_summary
 
 # reinsert the wlcore_sdio
-modprobe wlcore_sdio
+#modprobe wlcore_sdio
 
